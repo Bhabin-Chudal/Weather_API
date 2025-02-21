@@ -1,8 +1,57 @@
-# React + Vite
+# 🌦️ Weather App
+A Single Page Application providing real-time weather updates using OpenWeather API.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🚀 Installation
+Follow these steps to install and run the Weather App on your local machine.
 
-Currently, two official plugins are available:
+### **1. Clone the Repository**
+```bash
+git clone https://github.com/Bhabin-Chudal/Weather_API.git
+cd weather-app
+```
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### **2. Install Dependencies**
+```bash
+npm install
+```
+
+### **3. Set Up Environment Variables**
+Create a `.env` file in the root directory and add your OpenWeather API key:
+```env
+REACT_APP_WEATHER_API_KEY=your_api_key_here
+```
+
+### **4. Start the Development Server**
+```bash
+npm run dev
+```
+The application will run on `http://localhost:5173/`.
+
+---
+
+## ⚙️ Features
+- 🌍 **Real-Time Weather Data** – Fetches live weather updates from OpenWeather API.
+- 🔍 **Search Functionality** – Users can search for weather conditions in any city.
+- 🎨 **Interactive UI** – Designed with **MUI (Material-UI)** for a responsive experience.
+- 🌡️ **Dynamic Weather Visualization** – Displays weather conditions based on API response.
+
+
+---
+
+## 💻 Technologies Used
+### **Frontend**
+- React.js
+- MUI (Material-UI)
+
+### **API & Data Handling**
+- OpenWeather API
+- React Hooks (`useState`)
+
+---
+
+---
+
+## 📜 Notes
+- You **must provide an OpenWeather API key** in the `.env` file.
+- Ensure you **restart the app** after adding the API key.
+- This project is **fully responsive** and works on mobile and desktop.
